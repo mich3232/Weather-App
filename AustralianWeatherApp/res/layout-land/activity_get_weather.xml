@@ -1,0 +1,155 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="edu.computerpower.student.australianweatherapp.GetWeatherActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#FFFFFF"
+        android:text="@string/australian_weather_app"
+        android:textSize="24sp" />
+	<TableRow>
+    <TextView
+        android:id="@+id/userSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginRight="10dp" 
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/dateTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:textSize="18sp" />
+    
+    <TextView
+        android:id="@+id/temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/temperature"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/wforecast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp" />
+	</TableRow>
+    <TextView
+        android:id="@+id/forecast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/tf_forecast"
+        android:textSize="20sp" />
+	 <TableRow>
+       <TextView
+           android:id="@+id/timetxt"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           />
+       <TextView
+           android:id="@+id/timetxt1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           />
+       <TextView
+           android:id="@+id/timetxt2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           />
+       <TextView
+           android:id="@+id/timetxt3"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           />
+   </TableRow>
+     <TableRow>
+        <ImageView
+            android:id="@+id/icon" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:contentDescription="@string/description"/>
+         <ImageView
+            android:id="@+id/icon1" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:contentDescription="@string/description"/>   
+        <ImageView
+            android:id="@+id/icon2" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:contentDescription="@string/description"/>
+        <ImageView
+            android:id="@+id/icon3" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:contentDescription="@string/description"/>
+    </TableRow>
+     <TableRow>
+       <TextView
+           android:id="@+id/timetxt4"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           />
+       <TextView
+           android:id="@+id/timetxt5"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           />
+       <TextView
+           android:id="@+id/timetxt6"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           />
+       <TextView
+           android:id="@+id/timetxt7"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           />
+   </TableRow>
+    <TableRow>
+        <ImageView
+            android:id="@+id/icon4" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:contentDescription="@string/description"/>
+         <ImageView
+            android:id="@+id/icon5" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:contentDescription="@string/description"/>   
+        <ImageView
+            android:id="@+id/icon6" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           
+            android:contentDescription="@string/description"/>
+        <ImageView
+            android:id="@+id/icon7" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           
+            android:contentDescription="@string/description"/>
+    </TableRow>
+</TableLayout>
